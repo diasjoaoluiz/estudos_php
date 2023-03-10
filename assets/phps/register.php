@@ -22,7 +22,7 @@
             $sql_code = "INSERT INTO usuarios (user, email, password, name) VALUES ('$user', '$email', '$password', '$name')";
             $sql_query = $mysqli -> query($sql_code) or die("Falha na execução do código SQL: " . $mysqli -> error);
 
-            header("Location: index.php");
+            header("Location: ./index.php");
             
         }
     }

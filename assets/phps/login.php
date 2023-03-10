@@ -28,7 +28,7 @@
                 $_SESSION['id'] = $usuario['id'];
                 $_SESSION['name'] = $usuario['name'];
 
-                header("Location: index.html");
+                header("Location: index.php");
 
             }else {
                 echo "<script> alert(\"Falha no login, e-mail ou senha incorretos!\");</script>";  
