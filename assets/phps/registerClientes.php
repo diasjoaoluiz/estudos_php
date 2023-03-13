@@ -15,7 +15,7 @@
             $number = $mysqli -> real_escape_string($_POST['number']);
             $complement = $mysqli -> real_escape_string($_POST['complemenmt']);
             $state = $mysqli -> real_escape_string($_POST['state']);
-            $city = $mysqli -> real_escape_string($_POST['city']);
+            $cityId = $mysqli -> real_escape_string($_POST['city']);
 
 
             $sql_code = "INSERT INTO usuarios (user, email, password, name) VALUES ('$user', '$email', '$password', '$name')";
