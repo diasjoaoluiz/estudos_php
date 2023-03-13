@@ -11,16 +11,11 @@
             $celNumber2 = $mysqli -> real_escape_string($_POST['celNumber2']);
             $telNumber = $mysqli -> real_escape_string($_POST['telNumber']);
             $cep = $mysqli -> real_escape_string($_POST['cep']);
-            $stret = $mysqli -> real_escape_string($_POST['stret']);
-            $number = $mysqli -> real_escape_string($_POST['number']);
-            $complement = $mysqli -> real_escape_string($_POST['complemenmt']);
-            $state = $mysqli -> real_escape_string($_POST['state']);
-            $cityId = $mysqli -> real_escape_string($_POST['city']);
 
 
-            $sql_code = "INSERT INTO usuarios (user, email, password, name) VALUES ('$user', '$email', '$password', '$name')";
+            $sql_code = "INSERT INTO clientes (name, cpf, rg, email, celNumber1, celNumber2, telNumber, cep) VALUES ('$name', '$cpf', '$rg', '$email', '$celNumber1', '$celNumber2', '$telNumber', '$cep')";
             $sql_query = $mysqli -> query($sql_code) or die("Falha na execução do código SQL: " . $mysqli -> error);
 
-            header("Location: ./index.php");
+            header("Location: ../../index.php");
             
     }

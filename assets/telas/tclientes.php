@@ -49,7 +49,7 @@
                               </div>
                               <div class="col-6">
                                   <div class="float-end">
-                                      <a href="tRegclientes.html"><button class="btn btn-primary btn-sm">Cadastrar Cliente</button></a>
+                                      <a href="./tRegclientes.php"><button class="btn btn-primary">Cadastrar Cliente</button></a>
                                   </div>
                               </div>
                           </div>
@@ -58,7 +58,7 @@
                           <div class="row">
                             <div class="col-12">
                               <form class="row" action="">
-                                <div class="col ps-0">
+                                <div class="col ps-2">
                                   <input class="form-control col" type="text" placeholder="Nome Cliente">
                                 </div>
                                 <div class="col ps-0">
@@ -70,7 +70,7 @@
                                 <div class="col ps-0">
                                   <input class="form-control selected" type="text" placeholder="Cidade">
                                 </div>
-                                <div class="col-lg col-xs-12 p-xs-2 ps-xs-0 col-md-12 p-lg-0 p-md-2 ps-md-0 d-grid gap-2 ps-0">
+                                <div class="col-lg ps-lg-0 pt-lg-0 col-md pt-md-0 ps-md-0 col-sm pt-sm-0 col-xs pt-2 ps-2 d-grid gap-2">
                                   <button type="submit" class="btn btn-primary text-uppercase">pesquisar</button>
                                 </div>
                               </form>
@@ -78,7 +78,7 @@
                           </div>
                       </div>
                       <div class="row pt-2">
-                        <div class="col-12 ps-0">
+                        <div class="col-12 ps-2">
                           <table class="table">
                             <thead>
                               <tr class="table-dark">
